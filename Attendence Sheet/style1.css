@@ -1,0 +1,65 @@
+/* styles.css */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+body{
+    background: linear-gradient(90deg,#C7C5F4,#776BCC);
+}
+
+
+.attendance-container {
+    background-color: #ebeaea;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.attendence_submit{
+    background: #fff;
+    font-size:14px;
+    margin-top: 30px;
+    padding: 16px 20px;
+    border-radius: 26px;
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width:100%;
+    color: #4C489D;
+    box-shadow: 0px 2px 2px #5c5696;
+    cursor:pointer;
+    transform: 0.2s;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#takeAttendanceBtn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#takeAttendanceBtn:hover {
+    background-color: #218838;
+}
+
+#attendanceStatus {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
